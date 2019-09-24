@@ -25,7 +25,7 @@ func main() {
 		"default",
 		"my-controller",
 		client.CoreV1(),
-		// nil,
+		nil,
 		resourcelock.ResourceLockConfig{
 			Identity:      "host",
 			EventRecorder: recorder,
